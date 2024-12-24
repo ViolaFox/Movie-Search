@@ -1,0 +1,139 @@
+body {
+  background-color: rgb(31, 39, 53);
+}
+
+.container {
+  width: 1000px;
+  margin: 20px auto;
+}
+
+.tools {
+  display: flex;
+  gap: 24px;
+}
+
+.input {
+  width: 500px;
+  height: 60px;
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 0, 0);
+  background: rgba(255, 255, 255, 0.2);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 39px;
+  color: rgb(214, 214, 214);
+}
+
+.button {
+  width: 250px;
+  height: 60px;
+  background: rgb(0, 148, 255);
+  border: none;
+  display: inline-block;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 39px;
+  color: rgb(214, 214, 214);
+}
+
+.button:active {
+  background: rgb(37, 73, 97);
+}
+
+.movie-list {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+}
+
+.movie__link {
+  text-decoration: none;
+}
+
+.movie {
+  display: flex;
+  padding: 30px 0 26px 33px;
+  gap: 65px;
+  width: 660px;
+  border-radius: 35px;
+  margin-left: -33px;
+  color: rgb(214, 214, 214);
+}
+
+.movie:hover {
+  background: rgba(187, 187, 187, 0.2);
+}
+
+.movie__img {
+  width: 100px;
+  height: 148.21px;
+}
+
+.movie__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.movie__title {
+  margin-bottom: 7px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-decoration: none;
+  color: rgb(214, 214, 214);
+}
+
+.movie__year {
+  margin-bottom: 18px;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgb(0, 148, 255);
+}
+
+.movie__type {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.full-info {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 75px;
+  gap: 90px;
+  color: rgb(214, 214, 214);
+}
+
+.full-info__img {
+  margin-top: 18px;
+  width: 300px;
+  height: 372px;
+}
+
+.full-info__info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.full-info__title {
+  margin-bottom: 10px;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 61px;
+}
+
+label {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  color: rgb(0, 148, 255);
+}
+
+.full-info__plot {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  color: rgb(214, 214, 214);
+}

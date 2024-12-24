@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Детали Фильма</title>
+
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <a href="index.html" class="movie__title"><- Назад к поиску</a>
+      <div class="full-info">
+        <img id="moviePoster" class="full-info__img" src="" alt="" />
+        <div class="full-info__info">
+          <h2 id="movieTitle" class="full-info__title"></h2>
+          <p class="movie__type">Год: &nbsp;<label id="movieYear"></label></p>
+          <p class="movie__type">
+            Рейтинг: &nbsp;<label id="movieRating"></label>
+          </p>
+          <p class="movie__type">
+            Дата выхода: &nbsp;<label id="movieReleased"></label>
+          </p>
+          <p class="movie__type">
+            Продолжительность: &nbsp;<label id="movieRuntime"></label>
+          </p>
+          <p class="movie__type">Жанр: &nbsp;<label id="movieGenre"></label></p>
+          <p class="movie__type">
+            Режиссер: &nbsp;<label id="movieDirector"></label>
+          </p>
+          <p class="movie__type">
+            Сценарий: &nbsp;<label id="movieWriter"></label>
+          </p>
+          <p class="movie__type">
+            Актеры: &nbsp;<label id="movieActors"></label>
+          </p>
+        </div>
+      </div>
+      <p id="moviePlot" class="full-info__plot"></p>
+    </div>
+
+    <script src="movie-details.js"></script>
+  </body>
+</html>
